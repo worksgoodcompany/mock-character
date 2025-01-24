@@ -1,5 +1,5 @@
 {
-    "name": "Lock",
+    "name": "John",
     "clients": ["telegram", "twitter"],
     "modelProvider": "anthropic",
     "imageVisionModelProvider": "openai",
@@ -45,10 +45,10 @@
             "teamLeaderId": "",
             "autoPost": {
                 "enabled": true,
-                "mainChannelId": "-1002465326972",
+                "mainChannelId": "-1004602316598",
                 "pinnedMessagesGroups": [""],
-                "minTimeBetweenPosts": 600000,
-                "inactivityThreshold": 600000,
+                "minTimeBetweenPosts": 120000,
+                "inactivityThreshold": 120000,
                 "monitorTime": 60000
             }
         }
