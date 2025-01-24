@@ -1,5 +1,5 @@
 {
-    "name": "John",
+    "name": "Mock",
     "clients": ["telegram", "twitter"],
     "modelProvider": "anthropic",
     "imageVisionModelProvider": "openai",
@@ -18,7 +18,7 @@
             "POST_INTERVAL_MIN": "30",
             "POST_INTERVAL_MAX": "60",
             "POST_IMMEDIATELY": "false",
-            "ACTION_INTERVAL": "1",
+            "ACTION_INTERVAL": "5",
             "ENABLE_ACTION_PROCESSING": "true",
             "MAX_ACTIONS_PROCESSING": "1",
             "ACTION_TIMELINE_TYPE": "following",
@@ -47,9 +47,9 @@
                 "enabled": true,
                 "mainChannelId": "-1004602316598",
                 "pinnedMessagesGroups": [""],
-                "minTimeBetweenPosts": 120000,
-                "inactivityThreshold": 120000,
-                "monitorTime": 60000
+                "minTimeBetweenPosts": 7200000,
+                "inactivityThreshold": 3600000,
+                "monitorTime": 300000
             }
         }
     },
