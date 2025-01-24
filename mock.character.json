@@ -24,9 +24,6 @@
             "ACTION_TIMELINE_TYPE": "following",
             "USE_OPENAI_EMBEDDING": "true",
             "CACHE_STORE": "database",
-            "SMALL_ANTHROPIC_MODEL": "claude-3-5-sonnet-20241022",
-            "MEDIUM_ANTHROPIC_MODEL": "claude-3-5-sonnet-20241022",
-            "LARGE_ANTHROPIC_MODEL": "claude-3-5-sonnet-20241022",
             "SKIP_VECTOR_EXTENSION": "true"
         },
         "voice": {
