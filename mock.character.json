@@ -1,5 +1,5 @@
 {
-    "name": "Mock",
+    "name": "Lock",
     "clients": ["telegram", "twitter"],
     "modelProvider": "anthropic",
     "imageVisionModelProvider": "openai",
@@ -37,7 +37,7 @@
     "plugins": [],
     "clientConfig": {
         "telegram": {
-            "shouldIgnoreDirectMessages": false,
+            "shouldIgnoreDirectMessages": true,
             "shouldRespondOnlyToMentions": false,
             "messageSimilarityThreshold": 0.3,
             "isPartOfTeam": false,
