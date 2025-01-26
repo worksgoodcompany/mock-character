@@ -1,9 +1,7 @@
 {
     "name": "Mock",
-    "clients": ["telegram", "twitter", "direct"],
-    "modelProvider": "anthropic",
-    "imageVisionModelProvider": "openai",
-    "imageModelProvider": "openai",
+    "clients": ["telegram", "twitter"],
+    "modelProvider": "openai",
     "settings": {
         "secrets": {},
         "voice": {
